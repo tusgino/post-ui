@@ -100,3 +100,15 @@
 .posts-nav .page-item:not(.active) .page-link:hover {
   color: var(--primary-color);
 }
+
+/* Carousel */
+.carousel-item img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+}
